@@ -8,6 +8,10 @@ packages = [{include = "usz_neuro_conversion"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+neuroconv = {extras = ["hdf5"], version = "^0.2.4"}
+python-dateutil = "^2.8.2"
+pynwb = "^2.2.0"
+nixio = "^1.5.3"
 
 
 [tool.poetry.group.dev.dependencies]
