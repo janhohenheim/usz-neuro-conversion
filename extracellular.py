@@ -21,24 +21,24 @@ device = nwbfile.create_device(
 )
 nwbfile.add_electrode_column(name="label", description="label of electrode")
 
-nshanks = 19
-nchannels_per_shank = 3
-electrode_counter = 0
+group_count = 19
+channels_per_group = 1
 
-for ishank in range(nshanks):
-    # create an electrode group for this shank
+for group in range(group_count):
+    # create an electrode group for this group
     electrode_group = nwbfile.create_electrode_group(
-        name="shank{}".format(ishank),
-        description="electrode group for shank {}".format(ishank),
+        name="group{}".format(group),
+        description="electrode group for shank {}".format(group),
         device=device,
         location="brain area",
+        position=[0, 0, 0],
     )
     # add electrodes to the electrode table
-    for ielec in range(nchannels_per_shank):
+    for channel in range(channels_per_group):
         nwbfile.add_electrode(
             group=electrode_group,
-            label="shank{}elec{}".format(ishank, ielec),
+            label="group{}channel{}".format(group, channel),
             location="brain area",
+            reference="Averaged mastoid channels",
         )
-        electrode_counter += 1
-nwbfile.electrodes.to_dataframe()
+print(nwbfile.electrodes.to_dataframe())
