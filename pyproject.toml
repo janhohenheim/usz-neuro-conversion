@@ -16,6 +16,7 @@ matplotlib = "^3.7.0"
 jupyter = "^1.0.0"
 plotly = "^5.13.1"
 pandas = "^1.5.3"
+regex = "^2022.10.31"
 
 
 [tool.poetry.group.dev.dependencies]
