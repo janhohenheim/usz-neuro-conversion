@@ -1,0 +1,10 @@
+Subject	Session	Age	Gender	Pathology	Depth electrodes	Electrodes in seizure onset zone (SOZ)	Total trials
+1	1	31	M	sclerosis	AL, AR	AR	17
+2	1	48	M	gliosis	AL, AR	AR	17
+3	1	19	F	sclerosis	AL		17
+4	1	22	M	sclerosis	AL		17
+5	1	34	M	sclerosis	AR	AR	17
+6	1	23	M	sclerosis	AL, AR	AR	17
+7	1	39	M	gliosis	AL, AR	AR	17
+8	1	27	F	astrocytoma	AL		17
+9	1	22	M	sclerosis	AL, AR	AL, AR	17

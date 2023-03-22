@@ -1,0 +1,38 @@
+Subject	Session	Age	Sex	Handedness	Pathology	Depth electrodes	Electrodes in seizure onset zone (SOZ)	Percent correct	Total trials
+1	1	24	Female	Right	Xanthoastrocytoma WHO II	AHL,AL,ECL,LR,PHL,PHR	AHR,LR	88	50
+1	2	24	Female	Right	Xanthoastrocytoma WHO II	AHL,AL,ECL,LR,PHL,PHR	AHR,LR	94	50
+1	3	24	Female	Right	Xanthoastrocytoma WHO II	AHL,AL,ECL,LR,PHL,PHR	AHR,LR	94	50
+1	4	24	Female	Right	Xanthoastrocytoma WHO II	AHL,AL,ECL,LR,PHL,PHR	AHR,LR	94	50
+2	1	39	Male	Right	Gliosis	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	AHR,PHR	92	49
+2	2	39	Male	Right	Gliosis	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	AHR,PHR	91	47
+2	3	39	Male	Right	Gliosis	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	AHR,PHR	80	50
+2	4	39	Male	Right	Gliosis	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	AHR,PHR	83	48
+2	5	39	Male	Right	Gliosis	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	AHR,PHR	87	46
+2	6	39	Male	Right	Gliosis	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	AHR,PHR	84	50
+2	7	39	Male	Right	Gliosis	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	AHR,PHR	88	49
+3	1	18	Female	Right	Hippocampal sclerosis	AHL,AHR,AL,ECL,PHL	AHL,PHL	91	47
+3	2	18	Female	Right	Hippocampal sclerosis	AHL,AHR,AL,ECL,PHL	AHL,PHL	94	50
+3	3	18	Female	Right	Hippocampal sclerosis	AHL,AHR,AL,ECL,PHL	AHL,PHL	94	50
+4	1	28	Male	Right	Brain contusion	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	AHL,AHR,PHL,PHR	94	49
+4	2	28	Male	Right	Brain contusion	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	AHL,AHR,PHL,PHR	96	50
+5	1	20	Female	Right	Focal cortical dysplasia	AHL,AL,DRR,PHR	DRR	96	50
+5	2	20	Female	Right	Focal cortical dysplasia	AHL,AL,DRR,PHR	DRR	86	50
+5	3	20	Female	Right	Focal cortical dysplasia	AHL,AL,DRR,PHR	DRR	92	50
+6	1	31	Male	Right	Hippocampal sclerosis	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	AHL,PHL,ECL,AL	92	50
+6	2	31	Male	Right	Hippocampal sclerosis	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	AHL,PHL,ECL,AL	98	50
+6	3	31	Male	Right	Hippocampal sclerosis	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	AHL,PHL,ECL,AL	94	49
+6	4	31	Male	Right	Hippocampal sclerosis	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	AHL,PHL,ECL,AL	92	50
+6	5	31	Male	Right	Hippocampal sclerosis	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	AHL,PHL,ECL,AL	92	50
+6	6	31	Male	Right	Hippocampal sclerosis	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	AHL,PHL,ECL,AL	94	50
+6	7	31	Male	Right	Hippocampal sclerosis	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	AHL,PHL,ECL,AL	98	50
+7	1	47	Male	Right	Hippocampal sclerosis	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	AHR,PHR	98	49
+7	2	47	Male	Right	Hippocampal sclerosis	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	AHR,PHR	100	48
+7	3	47	Male	Right	Hippocampal sclerosis	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	AHR,PHR	92	50
+7	4	47	Male	Right	Hippocampal sclerosis	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	AHR,PHR	90	50
+8	1	56	Female	Right	Hippocampal sclerosis	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	ECR	88	50
+8	2	56	Female	Right	Hippocampal sclerosis	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	ECR	94	50
+8	3	56	Female	Right	Hippocampal sclerosis	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	ECR	86	50
+8	4	56	Female	Right	Hippocampal sclerosis	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	ECR	88	50
+8	5	56	Female	Right	Hippocampal sclerosis	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	ECR	94	49
+9	1	19	Female	Right	Hippocampal sclerosis	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	ECR,AR	92	48
+9	2	19	Female	Right	Hippocampal sclerosis	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	ECR,AR	94	49

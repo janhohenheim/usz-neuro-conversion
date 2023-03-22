@@ -1,0 +1,16 @@
+Subject	Session	Age	Sex	Pathology	Handedness	Implanted electrodes	Electrodes in seizure onset zone (SOZ)	Percent correct	Total trials
+1	1	31	M	Hippocampal sclerosis	Right	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	AHL,PHL,ECL,AL	81	189
+2	1	31	F	Hippocampal sclerosis	Right	AHR,ECR,PHR	PHR, AHR	83	192
+3	1	56	F	Hippocampal sclerosis	Right	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	ECR	83	192
+3	2	56	F	Hippocampal sclerosis	Right	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	ECR	85	191
+4	1	28	M	Brain contusion	Right	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	AHL,AHR,PHL,PHR	89	191
+5	1	20	F	FCD	Right	AHL,AHR,PHL,PHR		86	192
+7	1	19	M	Unknown	Right	AHR,PHL,PHR	PHL	88	189
+8	1	51	F	Hippocampal sclerosis	Right	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	AHL,PHL	89	190
+8	2	51	F	Hippocampal sclerosis	Right	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	AHL,PHL	88	191
+9	1	18	F	Hippocampal sclerosis	Right	AHL,AHR,AL,ECL,PHL	AHL,PHL	88	174
+10	3	47	M	Hippocampal sclerosis	Right	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	AHR,PHR	90	188
+11	2	37	M	FCD	Right	AHL,AHR,AL,AR		92	192
+12	1	24	F	Xanthoastrocytoma WHO II	Right	AHL,AL,LR,ECL,PHL,PHR	AHR	93	191
+12	2	24	F	Xanthoastrocytoma WHO II	Right	AHL,AL,LR,ECL,PHL,PHR	AHR	92	192
+13	1	39	M	Gliosis	Right	AHL,AHR,AL,AR,ECL,ECR,PHL,PHR	AHR,PHR	92	192
