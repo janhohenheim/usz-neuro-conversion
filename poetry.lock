@@ -2871,14 +2871,14 @@ files = [
 
 [[package]]
 name = "nwbinspector"
-version = "0.4.25"
+version = "0.4.26"
 description = "Tool to inspect NWB files for best practices compliance."
 category = "main"
 optional = false
 python-versions = "*"
 files = [
-    {file = "nwbinspector-0.4.25-py3-none-any.whl", hash = "sha256:b6aaa42a7a51803c6692f890ed5b601db6ee33d5a127840f073cdc2247d342ab"},
-    {file = "nwbinspector-0.4.25.tar.gz", hash = "sha256:bb079e76abc8586e159aa102d42e890954ab472b1950dc45a2ab11bb0f586c54"},
+    {file = "nwbinspector-0.4.26-py3-none-any.whl", hash = "sha256:ad14d6bda59f2a825de2a76b6dd080617381d6fdae8a4a3cac384ec72d111163"},
+    {file = "nwbinspector-0.4.26.tar.gz", hash = "sha256:a7b964544f52db7dfbdc8d964ff92d3b4b1204aca4c7279008e447db442a7d6c"},
 ]
 
 [package.dependencies]
@@ -4659,4 +4659,4 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "8954018b4e74c832e164c75b7219309a9ba0ce58ea826421f1270dbfd7e75d93"
+content-hash = "79322a949fb3e2f5751354f472a7a228204f00eae483e4149dd253d147187229"
