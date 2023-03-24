@@ -21,7 +21,7 @@ nwbwidgets = "^0.10.2"
 
 
 [tool.poetry.group.dev.dependencies]
-black = "^23.1.0"
+black = {extras = ["jupyter"], version = "^23.1.0"}
 nwbinspector = "^0.4.26"
 
 [build-system]

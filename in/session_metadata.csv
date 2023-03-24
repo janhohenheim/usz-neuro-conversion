@@ -1,0 +1,63 @@
+zeile,Patient ID,Participant,Session,Age,Sex,Pathology,sEEG electrodes analysed,Electrodes in seizure onset zone (SOZ),Total trials,Handedness,Percent correct,Date,Session Start Time,Dataset
+4,2,4,1,22,M,sclerosis,AL,,17,Right,,120829,17:52,Human_Amygdala_MUA_sEEG_FearVideo
+5,4,5,1,34,M,sclerosis,AR,AR,17,Right,,121207,17:35,Human_Amygdala_MUA_sEEG_FearVideo
+6,10,6,1,23,M,sclerosis,"AL, AR",AR,17,Right,,131209,11:36,Human_Amygdala_MUA_sEEG_FearVideo
+29,13,6,1,31,M,Hippocampal sclerosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","AHL,PHL,ECL,AL",50,Right,92,140827,16:59,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+30,13,6,2,31,M,Hippocampal sclerosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","AHL,PHL,ECL,AL",50,Right,98,140827,17:12,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+31,13,6,3,31,M,Hippocampal sclerosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","AHL,PHL,ECL,AL",49,Right,94,140827,17:21,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+47,13,1,1,31,M,Hippocampal sclerosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","AHL,PHL,ECL,AL",189,Right,81,140827,19:38,Human_MTL_units_visual_WM
+1,13,1,1,31,M,sclerosis,"AL, AR",AR,17,Right,,140828,13:27,Human_Amygdala_MUA_sEEG_FearVideo
+32,13,6,4,31,M,Hippocampal sclerosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","AHL,PHL,ECL,AL",50,Right,92,140828,10:26,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+33,13,6,5,31,M,Hippocampal sclerosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","AHL,PHL,ECL,AL",50,Right,92,140828,14:55,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+34,13,6,6,31,M,Hippocampal sclerosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","AHL,PHL,ECL,AL",50,Right,94,140828,15:10,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+35,13,6,7,31,M,Hippocampal sclerosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","AHL,PHL,ECL,AL",50,Right,98,140828,15:21,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+45,16,9,1,19,F,Hippocampal sclerosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","ECR,AR",48,Right,92,150115,14:43,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+46,16,9,2,19,F,Hippocampal sclerosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","ECR,AR",49,Right,94,150115,14:43,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+3,19,3,1,19,F,sclerosis,AL,,17,Right,,150304,16:44,Human_Amygdala_MUA_sEEG_FearVideo
+21,19,3,1,18,F,Hippocampal sclerosis,"AHL,AHR,AL,ECL,PHL","AHL,PHL",47,Right,91,150304,16:59,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+22,19,3,2,18,F,Hippocampal sclerosis,"AHL,AHR,AL,ECL,PHL","AHL,PHL",50,Right,94,150305,08:55,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+57,19,9,1,18,F,Hippocampal sclerosis,"AHL,AHR,AL,ECL,PHL","AHL,PHL",174,Right,88,150305,11:20,Human_MTL_units_visual_WM
+23,19,3,3,18,F,Hippocampal sclerosis,"AHL,AHR,AL,ECL,PHL","AHL,PHL",50,Right,94,150306,17:33,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+14,22,2,1,39,M,Gliosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","AHR,PHR",49,Right,92,160211,11:56,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+15,22,2,2,39,M,Gliosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","AHR,PHR",47,Right,91,160211,12:06,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+16,22,2,3,39,M,Gliosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","AHR,PHR",50,Right,80,160211,15:33,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+7,22,7,1,39,M,Gliosis,"AL, AR",AR,17,Right,,160212,17:14,Human_Amygdala_MUA_sEEG_FearVideo
+17,22,2,4,39,M,Gliosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","AHR,PHR",48,Right,83,160212,16:59,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+18,22,2,5,39,M,Gliosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","AHR,PHR",46,Right,87,160213,15:37,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+19,22,2,6,39,M,Gliosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","AHR,PHR",50,Right,84,160213,15:37,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+20,22,2,7,39,M,Gliosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","AHR,PHR",49,Right,88,160213,15:37,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+62,22,13,1,39,M,Gliosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","AHR,PHR",192,Right,92,160213,11:07,Human_MTL_units_visual_WM
+2,23,2,1,39,M,Gliosis,"AL, AR",AR,17,Right,,160302,16:48,Human_Amygdala_MUA_sEEG_FearVideo
+36,23,7,1,47,M,Hippocampal sclerosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","AHR,PHR",49,Right,98,160302,17:01,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+37,23,7,2,47,M,Hippocampal sclerosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","AHR,PHR",48,Right,100,160303,16:40,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+58,23,10,3,47,M,Hippocampal sclerosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","AHR,PHR",188,Right,90,160303,11:44,Human_MTL_units_visual_WM
+38,23,7,3,47,M,Hippocampal sclerosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","AHR,PHR",50,Right,92,160305,10:32,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+39,23,7,4,47,M,Hippocampal sclerosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","AHR,PHR",50,Right,90,160305,10:32,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+10,28,1,1,24,F,Xanthoastrocytoma WHO II,"AHL,AL,ECL,LR,PHL,PHR","AHR,LR",50,Right,88,161214,17:13,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+11,28,1,2,24,F,Xanthoastrocytoma WHO II,"AHL,AL,ECL,LR,PHL,PHR","AHR,LR",50,Right,94,161214,17:36,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+8,28,8,1,24,F,Xanthoastrocytoma WHO II,AL,,17,Right,,161217,12:02,Human_Amygdala_MUA_sEEG_FearVideo
+12,28,1,3,24,F,Xanthoastrocytoma WHO II,"AHL,AL,ECL,LR,PHL,PHR","AHR,LR",50,Right,94,161217,12:14,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+13,28,1,4,24,F,Xanthoastrocytoma WHO II,"AHL,AL,ECL,LR,PHL,PHR","AHR,LR",50,Right,94,161217,12:28,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+60,28,12,1,24,F,Xanthoastrocytoma WHO II,"AHL,AL,LR,ECL,PHL,PHR",AHR,191,Right,93,161217,10:38,Human_MTL_units_visual_WM
+61,28,12,2,24,F,Xanthoastrocytoma WHO II,"AHL,AL,LR,ECL,PHL,PHR",AHR,192,Right,92,161217,10:38,Human_MTL_units_visual_WM
+40,29,8,1,56,F,Hippocampal sclerosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR",ECR,50,Right,88,170111,11:54,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+41,29,8,2,56,F,Hippocampal sclerosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR",ECR,50,Right,94,170111,12:05,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+42,29,8,3,56,F,Hippocampal sclerosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR",ECR,50,Right,86,170113,12:14,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+43,29,8,4,56,F,Hippocampal sclerosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR",ECR,50,Right,88,170113,12:16,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+49,29,3,1,56,F,Hippocampal sclerosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR",ECR,192,Right,83,170113,10:50,Human_MTL_units_visual_WM
+50,29,3,2,56,F,Hippocampal sclerosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR",ECR,191,Right,85,170113,11:18,Human_MTL_units_visual_WM
+44,29,8,5,56,F,Hippocampal sclerosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR",ECR,49,Right,94,170114,17:29,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+24,30,4,1,28,M,Brain contusion,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","AHL,AHR,PHL,PHR",49,Right,94,170118,10:37,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+25,30,4,2,28,M,Brain contusion,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","AHL,AHR,PHL,PHR",50,Right,96,170118,10:47,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+51,30,4,1,28,M,Brain contusion,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","AHL,AHR,PHL,PHR",191,Right,89,170118,16:10,Human_MTL_units_visual_WM
+9,32,9,1,22,M,sclerosis,"AL, AR","AL, AR",17,Right,,170311,17:05,Human_Amygdala_MUA_sEEG_FearVideo
+26,33,5,1,20,F,Focal cortical dysplasia,"AHL,AL,DRR,PHR",DRR,50,Right,96,170706,11:53,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+27,33,5,2,20,F,Focal cortical dysplasia,"AHL,AL,DRR,PHR",DRR,50,Right,86,170706,11:53,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+28,33,5,3,20,F,Focal cortical dysplasia,"AHL,AL,DRR,PHR",DRR,50,Right,92,170706,14:11,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
+48,34,2,1,31,F,Hippocampal sclerosis,"AHR,ECR,PHR","PHR, AHR",192,Right,83,171011,15:21,Human_MTL_units_visual_WM
+53,35,6,1,35,M,Unknown,"AHL,AHR,AL,AR,ECL,ECR,PHR",AHL,,Right,,171027,11:36,Human_MTL_units_visual_WM
+52,37,5,1,20,F,FCD,"AHL,AHR,PHL,PHR",,192,Right,86,180704,13:21,Human_MTL_units_visual_WM
+54,38,7,1,19,M,Unknown,"AHR,PHL,PHR",PHL,189,Right,88,181027,18:36,Human_MTL_units_visual_WM
+55,40,8,1,51,F,Hippocampal sclerosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","AHL,PHL",190,Right,89,190116,11:03,Human_MTL_units_visual_WM
+56,40,8,2,51,F,Hippocampal sclerosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","AHL,PHL",191,Right,88,190116,12:50,Human_MTL_units_visual_WM
+59,41,11,2,37,M,FCD,"AHL,AHR,AL,AR",,192,Right,92,190515,19:58,Human_MTL_units_visual_WM
