@@ -43,8 +43,7 @@ class SessionContext:
 
 
 def read_nix(ctx: NixContext) -> nixio.File:
-    nix_dir = join(_get_in_dir(), "to_convert", ctx.project)
-    nix_dir = join(nix_dir, "data_nix") if ctx.has_subdir else nix_dir
+    nix_dir = join(_get_in_dir(), "to_convert", ctx.project, "data_nix")
     file_path = join(nix_dir, f"Data_Subject_{ctx.subject:02}_Session_{ctx.session:02}.h5")
     return nixio.File.open(file_path, nixio.FileMode.ReadOnly)
 
@@ -120,10 +119,9 @@ def _read_session_metadata() -> pd.DataFrame:
     return df
 
 
-def read_nwb(ctx: NwbContext) -> NWBFile:
+def create_nwb_io_for_reading(ctx: NwbContext) -> NWBHDF5IO:
     filename = _get_nwb_filename(ctx.subject, ctx.session)
-    with NWBHDF5IO(join(_get_out_dir(), "converted", ctx.project, filename)) as io:
-        return io.read()
+    return NWBHDF5IO(join(_get_out_dir(), "converted", ctx.project, filename), mode="r", load_namespaces=True)
 
 
 def write_nwb(ctx: SessionContext):
