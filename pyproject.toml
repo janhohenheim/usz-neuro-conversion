@@ -18,6 +18,8 @@ plotly = "^5.13.1"
 pandas = "^1.5.3"
 regex = "^2022.10.31"
 nwbwidgets = "^0.10.2"
+import-ipynb = "^0.1.4"
+nbimporter = "^0.3.4"
 
 
 [tool.poetry.group.dev.dependencies]

@@ -1410,6 +1410,22 @@ test = ["fsspec[github]", "invoke", "pytest", "pytest-cov"]
 tifffile = ["tifffile"]
 
 [[package]]
+name = "import-ipynb"
+version = "0.1.4"
+description = "Imports A.ipynb into B.ipynb"
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "import-ipynb-0.1.4.tar.gz", hash = "sha256:dcec6ab3ea13a3a5ccefc9a9963021706af3389775e1246d1abd7cbefc0d54a6"},
+    {file = "import_ipynb-0.1.4-py3-none-any.whl", hash = "sha256:27ef4fd477fbbd89f70828c736357f991e21c06ac92b1465c7dbcf4c698fb7ab"},
+]
+
+[package.dependencies]
+IPython = "*"
+nbformat = "*"
+
+[[package]]
 name = "importlib-metadata"
 version = "4.13.0"
 description = "Read metadata from Python packages"
@@ -2580,6 +2596,18 @@ traitlets = ">=5.1"
 [package.extras]
 docs = ["myst-parser", "pydata-sphinx-theme", "sphinx", "sphinxcontrib-github-alt", "sphinxcontrib-spelling"]
 test = ["pep440", "pre-commit", "pytest", "testpath"]
+
+[[package]]
+name = "nbimporter"
+version = "0.3.4"
+description = "Import IPython notebooks as modules"
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "nbimporter-0.3.4-py3-none-any.whl", hash = "sha256:14a4c37fd4a3e18ad5fba726d54f2e46b483dfe31c1f036682bb9ef259ab67a3"},
+    {file = "nbimporter-0.3.4.tar.gz", hash = "sha256:bc9bc803e7ba44ae9f7c6ec60cae2f4d1d509508feedd8c9e03a7949333bf16e"},
+]
 
 [[package]]
 name = "ndx-grayscalevolume"
@@ -4673,4 +4701,4 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "008190cc5bf642659e67b724bc5c0abb014a19161f5ead415ec1c0720819270a"
+content-hash = "51611b6baf0b5c80c645fc714177164775b5437eef75784131a1292e38f5746f"
