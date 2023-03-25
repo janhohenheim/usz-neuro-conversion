@@ -15,10 +15,9 @@ class NixContext:
     subject: int
     session: int
     project: str
-    has_subdir: bool = True
 
     def to_session_context(self, nix: nixio.File, nwb: NWBFile) -> 'SessionContext':
-        return SessionContext(self.subject, self.session, nix, nwb, self.project, self.has_subdir)
+        return SessionContext(self.subject, self.session, nix, nwb, self.project)
 
 
 @dataclass(frozen=True)
@@ -35,10 +34,9 @@ class SessionContext:
     nix: nixio.File
     nwb: NWBFile
     project: str
-    has_subdir: bool = True
 
     def to_nix_context(self) -> NixContext:
-        return NixContext(self.subject, self.session, self.project, self.has_subdir)
+        return NixContext(self.subject, self.session, self.project)
 
     def to_nwb_context(self) -> NwbContext:
         return NwbContext(self.subject, self.session, self.project)
