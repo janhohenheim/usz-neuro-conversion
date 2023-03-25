@@ -22,6 +22,13 @@ class NixContext:
 
 
 @dataclass(frozen=True)
+class NwbContext:
+    subject: int
+    session: int
+    project: str
+
+
+@dataclass(frozen=True)
 class SessionContext:
     subject: int
     session: int
@@ -32,6 +39,9 @@ class SessionContext:
 
     def to_nix_context(self) -> NixContext:
         return NixContext(self.subject, self.session, self.project, self.has_subdir)
+
+    def to_nwb_context(self) -> NwbContext:
+        return NwbContext(self.subject, self.session, self.project)
 
 
 def read_nix(ctx: NixContext) -> nixio.File:
@@ -112,15 +122,15 @@ def _read_session_metadata() -> pd.DataFrame:
     return df
 
 
-def read_nwb(subject: int, session: int) -> NWBFile:
-    filename = _get_nwb_filename(subject, session)
-    with NWBHDF5IO(join(_get_out_dir(), "converted", filename)) as io:
+def read_nwb(ctx: NwbContext) -> NWBFile:
+    filename = _get_nwb_filename(ctx.subject, ctx.session)
+    with NWBHDF5IO(join(_get_out_dir(), "converted", ctx.project, filename)) as io:
         return io.read()
 
 
 def write_nwb(ctx: SessionContext):
     filename = _get_nwb_filename(ctx.subject, ctx.session)
-    with NWBHDF5IO(join(_get_out_dir(), "converted", filename), "w") as io:
+    with NWBHDF5IO(join(_get_out_dir(), "converted", ctx.project, filename), "w") as io:
         io.write(ctx.nwb)
 
 
