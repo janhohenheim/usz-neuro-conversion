@@ -1,4 +1,7 @@
+import regex as re
+from os import PathLike, listdir
 from pathlib import Path
+from typing import Dict
 from zoneinfo import ZoneInfo
 import nixio
 from dataclasses import dataclass
@@ -139,3 +142,19 @@ def standardize_sex(raw: str) -> str:
     female = ["female", "f", "weiblich", "weibchen"]
     sex = raw.lower()
     return "M" if sex in male else "F" if sex in female else "O"
+
+
+def find_nix_files(project: str) -> Dict[int, Dict[int, PathLike]]:
+    nixdir = join(_get_in_dir(), "to_convert", project, "data_nix")
+    nix_files = {}
+    for file in listdir(nixdir):
+        match = _NIX_REGEX.match(file)
+        if match:
+            subject, session = map(int, match.groups())
+            if subject not in nix_files:
+                nix_files[subject] = {}
+            nix_files[subject][session] = join(nixdir, file)
+    return nix_files
+
+
+_NIX_REGEX = re.compile(r"Data_Subject_(\d{2})_Session_(\d{2}).h5")
