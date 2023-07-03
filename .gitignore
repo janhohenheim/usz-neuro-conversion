@@ -130,3 +130,6 @@ dmypy.json
 
 *.nwb
 in/to_convert
+
+.idea/
+~*.xlsx
