@@ -1,5 +1,5 @@
 import regex as re
-from os import PathLike, listdir
+from os import PathLike, listdir, makedirs
 from pathlib import Path
 from typing import Dict
 from zoneinfo import ZoneInfo
@@ -129,7 +129,9 @@ def create_nwb_io_for_reading(ctx: NwbContext) -> NWBHDF5IO:
 
 def write_nwb(ctx: SessionContext):
     filename = _get_nwb_filename(ctx.subject, ctx.session)
-    with NWBHDF5IO(join(_get_out_dir(), "converted", ctx.project, filename), "w") as io:
+    parent_dir = join(_get_out_dir(), "converted", ctx.project)
+    makedirs(parent_dir, exist_ok=True)
+    with NWBHDF5IO(join(parent_dir, filename), "w") as io:
         io.write(ctx.nwb)
 
 
