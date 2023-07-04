@@ -19,7 +19,7 @@ class NixContext:
     session: int
     project: str
 
-    def to_session_context(self, nix: nixio.File, nwb: NWBFile) -> 'SessionContext':
+    def to_session_context(self, nix: nixio.File, nwb: NWBFile) -> "SessionContext":
         return SessionContext(self.subject, self.session, nix, nwb, self.project)
 
 
@@ -47,7 +47,9 @@ class SessionContext:
 
 def read_nix(ctx: NixContext) -> nixio.File:
     nix_dir = join(_get_in_dir(), "to_convert", ctx.project, "data_nix")
-    file_path = join(nix_dir, f"Data_Subject_{ctx.subject:02}_Session_{ctx.session:02}.h5")
+    file_path = join(
+        nix_dir, f"Data_Subject_{ctx.subject:02}_Session_{ctx.session:02}.h5"
+    )
     return nixio.File.open(file_path, nixio.FileMode.ReadOnly)
 
 
@@ -100,7 +102,7 @@ def _read_session_metadata() -> pd.DataFrame:
             "Handedness",
             "Date",
             "Session Start Time",
-            "Dataset"
+            "Dataset",
         ],
         dtype={
             "Participant": np.int32,
@@ -124,7 +126,11 @@ def _read_session_metadata() -> pd.DataFrame:
 
 def create_nwb_io_for_reading(ctx: NwbContext) -> NWBHDF5IO:
     filename = _get_nwb_filename(ctx.subject, ctx.session)
-    return NWBHDF5IO(join(_get_out_dir(), "converted", ctx.project, filename), mode="r", load_namespaces=True)
+    return NWBHDF5IO(
+        join(_get_out_dir(), "converted", ctx.project, filename),
+        mode="r",
+        load_namespaces=True,
+    )
 
 
 def write_nwb(ctx: SessionContext):
