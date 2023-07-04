@@ -30,7 +30,7 @@ zeile,Patient ID,Participant,Session,Age,Sex,Pathology,sEEG electrodes analysed,
 2,23,2,1,39,M,Gliosis,"AL, AR",AR,17,Right,,160302,16:48,Human_Amygdala_MUA_sEEG_FearVideo
 36,23,7,1,47,M,Hippocampal sclerosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","AHR,PHR",49,Right,98,160302,17:01,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
 37,23,7,2,47,M,Hippocampal sclerosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","AHR,PHR",48,Right,100,160303,16:40,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
-58,23,10,3,47,M,Hippocampal sclerosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","AHR,PHR",188,Right,90,160303,11:44,Human_MTL_units_visual_WM
+58,23,10,1,47,M,Hippocampal sclerosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","AHR,PHR",188,Right,90,160303,11:44,Human_MTL_units_visual_WM
 38,23,7,3,47,M,Hippocampal sclerosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","AHR,PHR",50,Right,92,160305,10:32,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
 39,23,7,4,47,M,Hippocampal sclerosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","AHR,PHR",50,Right,90,160305,10:32,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
 10,28,1,1,24,F,Xanthoastrocytoma WHO II,"AHL,AL,ECL,LR,PHL,PHR","AHR,LR",50,Right,88,161214,17:13,Human_MTL_units_scalp_EEG_and_iEEG_verbal_WM
@@ -60,4 +60,4 @@ zeile,Patient ID,Participant,Session,Age,Sex,Pathology,sEEG electrodes analysed,
 54,38,7,1,19,M,Unknown,"AHR,PHL,PHR",PHL,189,Right,88,181027,18:36,Human_MTL_units_visual_WM
 55,40,8,1,51,F,Hippocampal sclerosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","AHL,PHL",190,Right,89,190116,11:03,Human_MTL_units_visual_WM
 56,40,8,2,51,F,Hippocampal sclerosis,"AHL,AHR,AL,AR,ECL,ECR,PHL,PHR","AHL,PHL",191,Right,88,190116,12:50,Human_MTL_units_visual_WM
-59,41,11,2,37,M,FCD,"AHL,AHR,AL,AR",,192,Right,92,190515,19:58,Human_MTL_units_visual_WM
+59,41,11,1,37,M,FCD,"AHL,AHR,AL,AR",,192,Right,92,190515,19:58,Human_MTL_units_visual_WM
