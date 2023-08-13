@@ -1,10 +1,13 @@
+import h5py
 import regex as re
 from os import PathLike, listdir, makedirs
 from pathlib import Path
-from typing import Dict
+from typing import Dict, List, Any
 from zoneinfo import ZoneInfo
 import nixio
 from dataclasses import dataclass
+
+from numpy import ndarray
 from pynwb import NWBFile, NWBHDF5IO
 from os.path import join
 import pandas as pd
@@ -53,9 +56,8 @@ def read_nix(ctx: NixContext) -> nixio.File:
     return nixio.File.open(file_path, nixio.FileMode.ReadOnly)
 
 
-def _get_in_dir() -> str:
-    current_file = pathlib.Path(__file__).parent.parent.resolve()
-    return join(current_file, "in")
+def get_micro_dir(ctx: NixContext) -> str:
+    return join(_get_in_dir(), "to_convert", ctx.project, "micro_data")
 
 
 def _get_in_dir() -> str:
@@ -68,6 +70,23 @@ def _get_out_dir() -> str:
 
 def _get_project_dir() -> Path:
     return pathlib.Path(__file__).parent.parent.resolve()
+
+
+def get_matlab_matrix_scalars_ragged(file: h5py.File, variable: str) -> list[list[Any]]:
+    return [[cell[0] for cell in file[ref][:]] for ref in file.get(f'data/{variable}')[0]]
+
+
+def get_matlab_matrix_scalars(file: h5py.File, variable: str) -> ndarray:
+    return np.array(get_matlab_matrix_scalars_ragged(file, variable))
+
+
+def get_matlab_matrix(file: h5py.File, variable: str) -> ndarray:
+    ref = file.get(f'data/{variable}')[0][0]
+    return np.array(file[ref][:])
+
+
+def get_matlab_value(file: h5py.File, variable: str) -> Any:
+    return file.get(f'data/{variable}')[0][0]
 
 
 def get_metadata_row(ctx: NixContext) -> pd.Series:
