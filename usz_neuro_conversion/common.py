@@ -81,7 +81,8 @@ def get_matlab_matrix_scalars(file: h5py.File, variable: str) -> ndarray:
 
 
 def get_matlab_matrix(file: h5py.File, variable: str) -> ndarray:
-    ref = file.get(f'data/{variable}')[0][0]
+    ref = file.get(f'data/{variable}') if "data" in file.keys() else file.get(f'dataMicro/{variable}')
+    ref = ref[0][0]
     return np.array(file[ref][:])
 
 
