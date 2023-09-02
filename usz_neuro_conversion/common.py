@@ -73,7 +73,9 @@ def _get_project_dir() -> Path:
 
 
 def get_matlab_matrix_scalars_ragged(file: h5py.File, variable: str) -> list[list[Any]]:
-    return [[cell[0] for cell in file[ref][:]] for ref in file.get(f'data/{variable}')[0]]
+    return [
+        [cell[0] for cell in file[ref][:]] for ref in file.get(f"data/{variable}")[0]
+    ]
 
 
 def get_matlab_matrix_scalars(file: h5py.File, variable: str) -> ndarray:
@@ -81,13 +83,22 @@ def get_matlab_matrix_scalars(file: h5py.File, variable: str) -> ndarray:
 
 
 def get_matlab_matrix(file: h5py.File, variable: str) -> ndarray:
-    ref = file.get(f'data/{variable}') if "data" in file.keys() else file.get(f'dataMicro/{variable}')
+    ref = (
+        file.get(f"data/{variable}")
+        if "data" in file.keys()
+        else file.get(f"dataMicro/{variable}")
+    )
     ref = ref[0][0]
     return np.array(file[ref][:])
 
 
+def get_matlab_trial_info(file: h5py.File) -> pd.DataFrame:
+    ref = file.get(f"TrialInformationTable")
+    return pd.DataFrame(file[ref][:])
+
+
 def get_matlab_value(file: h5py.File, variable: str) -> Any:
-    return file.get(f'data/{variable}')[0][0]
+    return file.get(f"data/{variable}")[0][0]
 
 
 def get_metadata_row(ctx: NixContext) -> pd.Series:
